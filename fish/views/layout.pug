@@ -1,0 +1,25 @@
+doctype html
+html(lang="ko")
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta( name='viewport', content='width=device-width, initial-scale=1')
+    title= title
+    link(rel='stylesheet', href='/css/main.css')
+    script(src="/js/main.js")
+  body
+    nav.main 
+      ul 
+        li
+          a(href="/") 홈
+        li
+          a(href="") 자유게시판
+        li
+          a(href="") 공지사항
+        li
+          a(href="/login") 로그인
+        li
+          a(href="") 회원가입
+    section.animals
+      a(href="/fish") 어류도감
+    block content

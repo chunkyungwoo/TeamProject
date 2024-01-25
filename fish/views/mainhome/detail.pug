@@ -1,0 +1,23 @@
+extends  ../mainhome/fish
+
+block content 
+    link(rel="stylesheet", href="/css/detail.css")
+    script(src="/js/detail.js")
+    article.fish.detail 
+        div.detail
+            strong ISBN 
+            span= fish.isbn 
+            strong 물고기명
+            span= fish.name 
+        div.detail
+            strong 원산지
+            span= fish.home 
+            strong 가격
+            span= fish.price 
+            strong 할인가
+            span= fish.discount 
+        div.detail 
+            strong 설명
+            spna= fish.description
+        div.detail.btn(data-isbn=`${fish.isbn}`)
+            button.list 리스트로
