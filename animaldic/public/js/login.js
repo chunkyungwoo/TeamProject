@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const login_form = document.querySelector("form.login");
   const input_username = login_form.querySelector("input.userid");
   const input_password = login_form.querySelector("input.password");
-  const btb_login = login_form.querySelector("input.btn_login");
+  const btn_login = login_form.querySelector("input.btn_login");
 
   btn_login.addEventListener("click", () => {
     if (!input_username.value) {
