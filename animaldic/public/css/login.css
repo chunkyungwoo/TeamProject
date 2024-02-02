@@ -21,7 +21,11 @@ form.login {
       border-radius: 10px;
       transition: 0.7s;
       &:hover {
+<<<<<<< HEAD
         background-color: #fff3af;
+=======
+        background-color: #00dad6;
+>>>>>>> d7ce256b74257167105028016a719c33e3608230
         cursor: pointer;
       }
       &:focus {
