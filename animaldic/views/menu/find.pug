@@ -1,5 +1,14 @@
 extends ../layout
 
 block content 
-    div.img
-        form.find(method="POST") 
+    link(rel="stylesheet", href="/css/find.css")
+    script(src="/js/find.js")
+    form.find(method="POST")
+        fieldset 
+            legend 아이디/비밀번호찾기
+            div 
+                label(for="") 아이디
+                input(type="button",value="아이디찾기",id="f_id") 
+            div 
+                label(for="") 비밀번호
+                input(type="button",value="비밀번호찾기",id="f_password")

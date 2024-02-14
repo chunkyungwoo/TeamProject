@@ -1,0 +1,22 @@
+form.find {
+  width: 60%;
+  margin: 10px auto;
+  fieldset {
+    border-radius: 10px;
+  }
+  legend {
+    color: #00dad6;
+  }
+}
+form.find div {
+  display: flex;
+  width: 50%;
+  margin: 3px auto;
+  input {
+    padding: 10px;
+    &:hover {
+      cursor: pointer;
+      opacity: 0.7;
+    }
+  }
+}
