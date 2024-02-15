@@ -1,4 +1,6 @@
-form.find {
+form.find,
+form.id,
+form.pw {
   width: 60%;
   margin: 10px auto;
   fieldset {
@@ -8,7 +10,9 @@ form.find {
     color: #00dad6;
   }
 }
-form.find div {
+form.find div,
+form.id div,
+form.pw div {
   display: flex;
   width: 50%;
   margin: 3px auto;
@@ -18,5 +22,12 @@ form.find div {
       cursor: pointer;
       opacity: 0.7;
     }
+  }
+}
+div.btn {
+  background-color: #ffdf6a;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.7;
   }
 }
